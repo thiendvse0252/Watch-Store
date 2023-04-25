@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/Watch-Store">
-    <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" name="DBConn" password="12345" type="javax.sql.DataSource" url="jdbc:sqlserver://localhost\VANTHIEN-SE\SQLEXPRESS:1433;databaseName=Shopping" username="sa">
+    <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" name="DBConn" password="12345" type="javax.sql.DataSource" url="jdbc:sqlserver://localhost:1433;databaseName=Shopping" username="sa">
     </Resource>
 </Context>

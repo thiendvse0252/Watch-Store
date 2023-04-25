@@ -168,7 +168,10 @@
             </tbody>
 
         </table>
-        <% }%>
+        <% }else{
+                response.sendRedirect("login.jsp");
+                return;
+        }%>
     </c:if>
 </c:if>
 <%

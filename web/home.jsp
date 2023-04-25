@@ -100,7 +100,7 @@
 
 
                     <h1 class="w3-hide-small"></h1>
-                    <p><a href="shopping.jsp" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
+                    <p><a href="login.jsp" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
                 </div>
             </div>
 

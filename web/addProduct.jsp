@@ -1,4 +1,5 @@
 
+<%@page import="sample.user.UserDTO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -39,6 +40,18 @@
         </style>
     </head>
     <body>
+        <%
+            UserDTO loginUser = (UserDTO) session.getAttribute("LOGIN_USER");
+            if (loginUser == null || !"AD".equals(loginUser.getRoleID())) {
+                response.sendRedirect("login.jsp");
+                return;
+            }
+            String search = (String) request.getParameter("search");
+            if (search == null) {
+                search = "";
+            }
+
+        %>
         <div>
             <form action="MainController" method="POST">
                 <div>						

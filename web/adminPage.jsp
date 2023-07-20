@@ -8,6 +8,83 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Admin Page | Mi Watch Store</title>
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+
+            .text-center {
+                text-align: center;
+            }
+
+            .mt-5 {
+                margin-top: 5em;
+            }
+
+            .border-success {
+                border-color: #28a745;
+            }
+
+            .pt-3 {
+                padding-top: 3em;
+            }
+
+            .input-group {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .form-control {
+                width: 300px;
+                margin-right: 10px;
+            }
+
+            .input-group-append {
+                margin-left: 10px;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: left;
+            }
+
+            th {
+                background-color: #f2f2f2;
+                font-weight: bold;
+            }
+
+            form {
+                display: inline;
+                margin-bottom: 0;
+            }
+
+            h1 {
+                color: red;
+                margin-top: 20px;
+            }
+
+            button {
+                background-color: #FCF89a;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+                text-decoration: none;
+                margin-bottom: 10px;
+            }
+        </style>
 
     </head>
 
